@@ -7,3 +7,5 @@ A mini project inspired by codecademy: Ask the magic Eight Ball a question and i
 ### Images
 
 magic-eight-ball : Credit to (Candace McDaniel)[https://stocksnap.io/author/candacemcdaniel]
+
+background-magic : Credit to (Vidsplay)[https://stocksnap.io/author/vidsplay]
