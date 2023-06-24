@@ -27,8 +27,10 @@ function handleQuestion(event) {
  * Communicates response back to user in the prediction-container
  */
 function generateAnswer() {
+    // Code for generating the random number developed through codecademy's Magic Eight Ball lesson
     let randomNumber = Math.floor(Math.random() * 8) + 1;
     document.getElementById('prediction').textContent;
+    // Code for switch developed through codecademy's Magic Eight Ball lesson
     switch(randomNumber) {
         case 1: document.getElementById('prediction').textContent = 'Absolutely, without a shadow of a doubt';
         break;
