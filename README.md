@@ -1,10 +1,12 @@
 # Magic Eight Ball
+
 A mini project inspired by codecademy after following their Magic Eight Ball task. 
+
+![Image showing the project](documentation/Screenshot.png)
 
 Ask the magic Eight Ball a question and it will predict how likely it is to be true.
 
-Link to live site:
-
+Link to live site: https://georginacarlisle.github.io/mini-project-eightBall/
 
 ## Credits
 
