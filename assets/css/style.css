@@ -44,7 +44,7 @@ h1, h2 {
 }
 
 p {
-    margin: 1rem;
+    margin: 2rem;
 }
 
 #magic-8-ball {
@@ -89,4 +89,13 @@ footer li {
 
 .icon {
     color: #161e8b;
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        font-size: 20px;
+    }
+    p {
+        margin: 2.5rem;
+    }
 }
