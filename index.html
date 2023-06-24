@@ -10,46 +10,65 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <main>
     <img id="background" src="assets/images/background-magic.jpg" alt="abstract floating blue particles">
-    <h1>Magic Eight Ball</h1>
-    <p>Ask the Magic Eight Ball a yes or no question and it will predict how likely it is to come true.</p>
-    <img id="magic-8-ball" src="assets/images/magic-eight-ball.jpg" alt="Hands holding a magic 8 ball">
+    <main>
+        <h1>Magic Eight Ball</h1>
+        <p>Ask the Magic Eight Ball a yes or no question and it will predict how likely it is to come true.</p>
+        <img id="magic-8-ball" src="assets/images/magic-eight-ball.jpg" alt="Hands holding a magic 8 ball">
     
-    <!-- Form to collect user's name (not required) and user's question (required)-->
-    <form id="ask-eightball">
-        <label for="name">
-            What is your name?
-        </label>
-        <input 
-            type="text"
-            id="name"
-            name="name"
-            class="text-input">
+        <!-- Form to collect user's name (not required) and user's question (required)-->
+        <form id="ask-eightball">
+            <label for="name">
+                What is your name?
+            </label>
+            <input 
+                type="text"
+                id="name"
+                name="name"
+                class="text-input">
 
-         <label for="question">
-            What would you like to ask the eight Ball?
-        </label>
-        <input 
-            type="text"
-            id="question"
-            name="question"
-            class="text-input"
-            required>
-        <input
-            type="submit"
-            value="Ask the Magic Eight Ball"
-            id="submitQuestion" >
-    </form>
+            <label for="question">
+                What would you like to ask the eight Ball?
+            </label>
+            <input 
+                type="text"
+                id="question"
+                name="question"
+                class="text-input"
+                required>
+            <input
+                type="submit"
+                value="Ask the Magic Eight Ball"
+                id="submitQuestion" >
+        </form>
 
-    <div id="prediction-container">
-        <h3><span id="insert-name"></span> you asked</h3>
-        <p id="insert-question"></p>
-        <h2>The Magic Eight Ball predicts</h2>
-        <p id="prediction"></p>
-    </div>
+        <div id="prediction-container">
+            <h3><span id="insert-name"></span> you asked</h3>
+            <p id="insert-question"></p>
+            <h2>The Magic Eight Ball predicts</h2>
+            <p id="prediction"></p>
+        </div>
     </main>
-    <!-- Link to the JavaScript script-->
+    <footer>
+        <p>Created by Georgina Carlisle 2023</p>
+        <ul id="footer-links">
+                <li>
+                    <a href="https://github.com/GeorginaCarlisle" target="_blank" 
+                    rel="noopener" aria-label="Visit my GitHub profile (opens in a new tab)">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/georgina-carlisle-617b58268" target="_blank" 
+                    rel="noopener" aria-label="Visit my linkedin profile (opens in a new tab)">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>   
+    </footer>
+     <!-- Script for fontawesome icons -->
+    <script src="https://kit.fontawesome.com/ab3127d928.js" crossorigin="anonymous"></script>
+    <!-- Link to the JavaScript script -->
     <script src="assets/javascript/script.js"></script>
 </body>
 </html>
