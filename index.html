@@ -10,8 +10,39 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1> Magic Eight Ball</h1>
+    <h1>Magic Eight Ball</h1>
+    <p>Ask the Magic Eight Ball a question and it will predict how likely it is to come true.</p>
 
+    <!-- Form to collect user's name (not required) and user's question (required)-->
+    <form>
+        <label for="name">
+            What is your name?
+        </label>
+        <input 
+            type="text"
+            id="name"
+            name="name"
+            class="text-input">
+
+         <label for="question">
+            What would you like to ask the eight Ball?
+        </label>
+        <input 
+            type="text"
+            id="question"
+            name="question"
+            class="text-input"
+            required>
+        <input
+            type="submit"
+            value="Ask the Magic Eight Ball"
+            id="submitQuestion" >
+    </form>
+
+    <div id="prediction-container">
+        <h2>The Magic Eight Ball predicts:</h2>
+        <p id="prediction"></p>
+    </div>
     <!-- Link to the JavaScript script-->
     <script src="assets/javascript/script.js"></script>
 </body>
