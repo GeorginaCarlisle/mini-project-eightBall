@@ -11,8 +11,14 @@ body {
 
 main {
     flex-grow: 1; /* The main container will grow to fill the left over space */
-    padding: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
+    /* Graded background added to allow for better text contrast */
+    background: linear-gradient(90deg, #4aa4ab00 0, #4aa4abd1 10% 90%, #4aa4ab00 100%);
+    border-radius: 5px;
 }
 
 /* Set background image to always fill the full window and sit behind all other content */
