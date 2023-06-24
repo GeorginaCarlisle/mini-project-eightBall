@@ -13,33 +13,36 @@
     <img id="background" src="assets/images/background-magic.jpg" alt="abstract floating blue particles">
     <main>
         <h1>Magic Eight Ball</h1>
-        <p>Ask the Magic Eight Ball a yes or no question and it will predict how likely it is to come true.</p>
+        <p>Ask the Magic Eight Ball a yes or no question about the future and it will predict how likely it is to come true.</p>
         <img id="magic-8-ball" src="assets/images/magic-eight-ball.jpg" alt="Hands holding a magic 8 ball">
     
         <!-- Form to collect user's name (not required) and user's question (required)-->
         <form id="ask-eightball">
-            <label for="name">
-                What is your name?
-            </label>
-            <input 
-                type="text"
-                id="name"
-                name="name"
-                class="text-input">
-
-            <label for="question">
-                What would you like to ask the eight Ball?
-            </label>
-            <input 
-                type="text"
-                id="question"
-                name="question"
-                class="text-input"
-                required>
+            <div class="question-container">
+                <label for="name">
+                    What is your name?
+                </label>
+                <input 
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="text-input">
+            </div>
+            <div class="question-container">
+                <label for="question">
+                    What is your question?
+                </label>
+                <input 
+                    type="text"
+                    id="question"
+                    name="question"
+                    class="text-input"
+                    required>
+            </div>
             <input
                 type="submit"
                 value="Ask the Magic Eight Ball"
-                id="submitQuestion" >
+                id="submit-question" >
         </form>
 
         <div id="prediction-container">

@@ -40,12 +40,34 @@ footer {
 /* Page Elements */
 h1, h2 {
     color: #161e8b;
+    margin: 0.5rem;
+}
+
+p {
+    margin: 1rem;
 }
 
 #magic-8-ball {
     margin: 0 auto;
     width: 50%;
 }
+
+#ask-eightball {
+    margin: 1rem;
+}
+
+.question-container {
+    margin: 1rem;
+}
+
+#submit-question {
+     margin: 1rem;
+     background-color: #09201d;
+     color: #c9e8b8;
+     border-radius: 5px;
+     padding: 0.5rem;
+}
+
 
 footer > p {
     margin: 1rem;
