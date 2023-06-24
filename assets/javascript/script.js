@@ -1,20 +1,31 @@
+// JavaScript will only run when the submit button is clicked
 let form = document.getElementById('ask-eightball');
 form.addEventListener('submit', handleQuestion);
 
+/** 
+ * Runs when the submit button is clicked
+ * Takes users name and question and communicates them back to the user in the prediction-container. 
+ * Sets off the generateAnswer function
+ */ 
 function handleQuestion(event) {
     event.preventDefault();
     let user = document.getElementById("name").value;
     let question = document.getElementById("question").value;
     if (user) {
-        document.getElementById('insert-name').textContent = user; 
+        document.getElementById('insert-name').textContent = user + ' you asked'; 
         } else {
-        document.getElementById('insert-name').textContent = "Stranger"; 
+        document.getElementById('insert-name').textContent = "Stranger you asked"; 
         }
-    document.getElementById('insert-question').textContent = question; 
+    document.getElementById('insert-question').textContent = '"' + question + '" and the magic eight ball replies'; 
     // Need to add a way of clearing the form that doesn't also clearthe magic balls prediction
     generateAnswer();
 }
 
+/**
+ * Runs after the handleQuestion function when the submit button is clicked
+ * Uses a random number to choose one of eight responses to give back to the user
+ * Communicates response back to user in the prediction-container
+ */
 function generateAnswer() {
     let randomNumber = Math.floor(Math.random() * 8) + 1;
     document.getElementById('prediction').textContent;
