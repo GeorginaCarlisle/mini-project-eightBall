@@ -11,7 +11,7 @@
 </head>
 <body>
     <h1>Magic Eight Ball</h1>
-    <p>Ask the Magic Eight Ball a question and it will predict how likely it is to come true.</p>
+    <p>Ask the Magic Eight Ball a yes or no question and it will predict how likely it is to come true.</p>
 
     <!-- Form to collect user's name (not required) and user's question (required)-->
     <form>
@@ -40,7 +40,9 @@
     </form>
 
     <div id="prediction-container">
-        <h2>The Magic Eight Ball predicts:</h2>
+        <h3><span id="insert-name"></span>you asked</h3>
+        <p id="insert-question"></p>
+        <h2>The Magic Eight Ball predicts</h2>
         <p id="prediction"></p>
     </div>
     <!-- Link to the JavaScript script-->
